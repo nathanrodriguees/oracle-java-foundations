@@ -1,0 +1,15 @@
+package br.edu.senaisp.model;
+
+public class MyClass {
+
+	public static void main(String[] args) {
+
+		int joão = 10;
+	    int nathan = 25;
+	    int matheus = 22;
+	    int soma = joão + nathan + matheus;
+
+	    System.out.println("A soma das idades " + joão + "+" + nathan + "+" + matheus + "=" + soma);
+	}
+
+}
