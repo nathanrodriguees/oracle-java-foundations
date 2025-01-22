@@ -19,26 +19,43 @@ public class MyClass {
 //		
 //		// Faça um programa que receba 2 valores e escreva o maior deles.
 //		
-		System.out.printf("Digite o 1° número:");
-		int n1 = sc.nextInt();
 		
-		System.out.printf("Digite o 2° número:");
-		int n2 = sc.nextInt();
+// 		Scanner
+//		System.out.printf("Digite o 1° número:");
+//		int n1 = sc.nextInt();
+//		
+//		System.out.printf("Digite o 2° número:");
+//		int n2 = sc.nextInt();
+//		
+//		if (n1 > n2) {
+//			System.out.printf("%d é maior\n", n1);
+//			System.out.println(String.format("%d é maior", n1));
+//		}else {
+//			if (n1 == n2) {
+//				System.out.println(n1 + " e " + n2 + " são iguais");
+//			}else {
+//				System.out.printf("%d é maior\n", n2);
+//				System.out.println(String.format("%d é maior", n2));
+//			}
+//		}
 		
-		if (n1 > n2) {
-			System.out.printf("%d é maior\n", n1);
-			System.out.println(String.format("%d é maior", n1));
-		}else {
-			if (n1 == n2) {
-				System.out.println(n1 + " e " + n2 + " são iguais");
-			}else {
-				System.out.printf("%d é maior\n", n2);
-				System.out.println(String.format("%d é maior", n2));
-			}
-		}
 		
+// 		Validador de senha
 		
-//
+		System.out.printf("Digite a senha:");
+		int senha = sc.nextInt();
+			
+//		if (senha == 1234) {
+//			System.out.printf("Valida");
+//		}else {
+//			System.out.printf("Invalida");
+//		}
+		
+		System.out.println(senha == 1234
+				? "Valido"
+				: "Invalido");
+		
+//		Operadores ternários
 //		String mensagem = idade < 18
 //				? "Menor de idade"
 //				: "Maior de idade";
