@@ -16,10 +16,9 @@ public class MyClass {
 //		}else{
 //			System.out.println("Menor de idade");
 //		}
-//		
-//		// Faça um programa que receba 2 valores e escreva o maior deles.
-//		
 		
+		
+//		// Faça um programa que receba 2 valores e escreva o maior deles.
 // 		Scanner
 //		System.out.printf("Digite o 1° número:");
 //		int n1 = sc.nextInt();
@@ -41,19 +40,19 @@ public class MyClass {
 		
 		
 // 		Validador de senha
-		
 		System.out.printf("Digite a senha:");
 		int senha = sc.nextInt();
-			
+		
 //		if (senha == 1234) {
-//			System.out.printf("Valida");
+//			System.out.printf("ACESSO PERMITIDO");
 //		}else {
-//			System.out.printf("Invalida");
+//			System.out.printf("ACESSO NEGADO");
 //		}
 		
 		System.out.println(senha == 1234
-				? "Valido"
-				: "Invalido");
+				? "ACESSO PERMITIDO"
+				: "ACESSO NEGADO");
+		
 		
 //		Operadores ternários
 //		String mensagem = idade < 18
