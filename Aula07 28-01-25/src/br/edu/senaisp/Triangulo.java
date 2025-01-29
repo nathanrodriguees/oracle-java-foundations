@@ -32,7 +32,7 @@ public class Triangulo {
 
 	public static void main(String[] args) {
 
-//		Exercício do triangulo:
+//		Exercício do triangulo: Bittencourt
 
 		int l1 = 6;
 		int l2 = 6;
@@ -40,7 +40,7 @@ public class Triangulo {
 
 		if (l1 == l2 && l2 == l3) {
 			System.out.println("Equilátero!");
-		} else if( l1 != l2 && l2 != l3 && l1 != l3){
+		} else if (l1 != l2 && l2 != l3 && l1 != l3) {
 			System.out.println("Escaleno!");
 		} else {
 			System.out.println("Isosceles!");
