@@ -34,26 +34,28 @@ public class Vetor {
 		int[] numbers = new int[5];
 		int soma = 0;
 		int maior = 0;
+		int menor = Integer.MAX_VALUE;
 		
 		for (int i = 0; i < numbers.length; i++) {
 			System.out.println("Digite o " + (i + 1) + "° numero: ");
 			numbers[i] = sc.nextInt();
-			soma = soma + numbers[i];
+			soma += numbers[i];
 			
-			
-			if (maior >= numbers[i]) {
-				maior = maior;
-			}else {
+			if (maior <= numbers[i]) {
 				maior = numbers[i];
+			}
+			
+			if (menor >= numbers[i]) {
+				menor = numbers[i];
 			}
 		}
 		
-
-		float media = soma / 2f;
+		float media = soma / numbers.length;
 		
 		System.out.println("A soma de todos os números é: " + soma);
 		System.out.println("A media de todos os números é: " + media);
 		System.out.println("O maior número é: " + maior);
+		System.out.println("O menor número é: " + menor);
 		
 	}
 }
