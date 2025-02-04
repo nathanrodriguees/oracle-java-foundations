@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Collections;
 
 public class Teste {
 	public static void main(String[] args) {
@@ -20,13 +21,23 @@ public class Teste {
 		flores.add("Hortencia");
 		flores.add("Bromelia");
 		
+		Collections.sort(flores); // Ordena os elementos da lista
+		
 		for (String flor : flores) {
 			System.out.println(flor);
 		}
 		
 		System.out.println(flores.toString());
 		
-		//Exercicio: Criar lista com o nome de 3 pessoas e imprimir
+		System.out.println(flores.contains("Lotus"));
+		
+		System.err.println(flores.get(0));
+		
+		System.out.println(flores.indexOf("Jasmin")); // busca o índice do elemento, se não for encontrado na lista, ele retorna -1.
+		
+		System.err.println(flores.isEmpty());
+		
+		System.out.println(flores.remove(2)); // remove o elemento que está na posição de índice
 		
 		
 	}
