@@ -45,14 +45,12 @@ public class Teste {
 			System.out.println(i + "-" + flor);
 			i++;
 		}
-		
-		
+
 		// Lista Imutavel
 
-		 List<String> caes = List.of("Golden", "Caramelho",
-					"Xaxau", "Lalau");
+		List<String> caes = List.of("Golden", "Caramelho", "Xaxau", "Lalau");
 		caes.remove("Golden");
-		 for (String string : caes) {
+		for (String string : caes) {
 			System.err.println(string);
 		}
 
