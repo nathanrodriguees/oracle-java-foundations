@@ -1,11 +1,11 @@
 
-public class Lista {
-
+public class List {
+	
 	String[] vetor = new String[5];
 	int posicaoVaga = 0;
 
 	public void adicionar(String valor) {
-		if (vetor.length < posicaoVaga) {
+		if (vetor.length <= posicaoVaga) {
 			String[] vetTemp = new String[vetor.length + 5];
 			
 			int i = 0;
