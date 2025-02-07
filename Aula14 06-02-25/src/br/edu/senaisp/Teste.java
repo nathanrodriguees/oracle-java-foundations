@@ -13,8 +13,10 @@ public class Teste {
 //		c1.km = 1_000_000;
 //		c1.placa = "EPG0X12";
 //		c1.nomeCliente = "Armando Peixoto";
+		
+		c1.setNome("Fufu");
 
-		System.out.println(c1.nome);
+		System.out.println(c1.getNome());
 
 	}
 }
