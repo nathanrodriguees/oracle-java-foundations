@@ -1,9 +1,13 @@
 
 public class List {
 	
-	String[] vetor = new String[5];
+	String[] vetor;
 	int posicaoVaga = 0;
-
+	
+	public List(int qtdInicial) {
+		vetor = new String[qtdInicial];
+	}
+	
 	public void adicionar(String valor) {
 		if (vetor.length <= posicaoVaga) {
 			String[] vetTemp = new String[vetor.length + 5];

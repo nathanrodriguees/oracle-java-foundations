@@ -3,7 +3,7 @@ public class Test {
 	public static void main(String[] args) {
 		
 
-			List animais = new List();
+			List animais = new List(500);
 			animais.adicionar("Unicornio");
 			animais.adicionar("Leleleão Marinho");
 			animais.adicionar("Pombo");

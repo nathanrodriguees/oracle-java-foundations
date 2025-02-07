@@ -13,5 +13,4 @@ public class Teste {
 		c1.nomeCliente = "Armando Peixoto";
 
 	}
-
 }
