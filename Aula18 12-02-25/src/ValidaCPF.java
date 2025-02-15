@@ -19,7 +19,7 @@ public class ValidaCPF {
 		for (int i = 0; i < 9; i++) {
 			soma += vetor2[i] * (10 - i);
 		}
-		
+
 		System.out.println(soma);
 
 		int resto = soma % 11;
@@ -30,26 +30,26 @@ public class ValidaCPF {
 			dv1 = 0;
 
 		if (dv1 != vetor2[9]) {
-		    System.out.println("CPF inválido");
+			System.out.println("CPF inválido");
 		} else {
-			
-		    int soma2 = 0;
-		    for (int i = 0; i < 10; i++) {
-		        soma2 += vetor2[i] * (11 - i);
-		    }
 
-		    int resto2 = soma2 % 11;
-		    int dv2 = 11 - resto2;
+			int soma2 = 0;
+			for (int i = 0; i < 10; i++) {
+				soma2 += vetor2[i] * (11 - i);
+			}
 
-		    if (dv2 > 9) {
-		        dv2 = 0;
-		    }
+			int resto2 = soma2 % 11;
+			int dv2 = 11 - resto2;
 
-		    if (dv2 == vetor2[10]) {
-		        System.out.println("CPF Válido");
-		    } else {
-		        System.out.println("CPF Inválido");
-		    }
+			if (dv2 > 9) {
+				dv2 = 0;
+			}
+
+			if (dv2 == vetor2[10]) {
+				System.out.println("CPF Válido");
+			} else {
+				System.out.println("CPF Inválido");
+			}
 		}
 
 	}
