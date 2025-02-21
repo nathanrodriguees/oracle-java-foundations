@@ -9,6 +9,9 @@ public class Teste {
 
 		Circulo c = new Circulo(10);
 		impressora(c);
+
+		Triangulo t = new Triangulo(5, 6);
+		impressora(t);
 	}
 
 	public static void impressora(IFiguraGeo i) {
