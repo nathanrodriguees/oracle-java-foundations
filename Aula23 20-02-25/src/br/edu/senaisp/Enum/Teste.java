@@ -9,4 +9,5 @@ public class Teste {
 	public static void qualquerCoisa(ESemana s) {
 
 	}
+
 }
