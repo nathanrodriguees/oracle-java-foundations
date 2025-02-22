@@ -1,20 +1,39 @@
-# oracle-java-foundations
-Curso de Java - Oracle Foundations - SENAI
+# 📌 Oracle Java Foundations - SENAI
 
-📌 oracle-java-foundations
-Este repositório contém materiais e códigos desenvolvidos durante o curso Oracle Java Foundations - SENAI. O objetivo é armazenar os exercícios e projetos desenvolvidos nas aulas, servindo como um repositório de aprendizado sobre Java.
+Bem-vindo(a) ao repositório do curso **Oracle Java Foundations - SENAI**! Aqui, armazenamos materiais, exercícios e projetos desenvolvidos durante as aulas, servindo como um recurso de aprendizado sobre Java.
 
-🚀 Tecnologias Utilizadas
-Java (versão utilizada no curso)
-IDE: IntelliJ / Eclipse / VS Code
-Git & GitHub para versionamento de código
+---
 
-🛠 Como Usar
-Clone este repositório para sua máquina local:
-git clone https://github.com/seu-usuario/oracle-java-foundations.git
-Navegue até a pasta do projeto:
-cd oracle-java-foundations
-Abra em sua IDE favorita e execute os arquivos Java conforme necessário.
+## 🚀 Tecnologias Utilizadas
+- **Linguagem:** Java (versão utilizada no curso)
+- **IDE:** IntelliJ IDEA / Eclipse / VS Code
+- **Versionamento de Código:** Git & GitHub
+
+---
+
+## 🎯 Objetivo do Curso
+O curso **Oracle Java Foundations** tem como meta ensinar os conceitos fundamentais da linguagem Java, incluindo:
+
+✅ Estruturas de Dados e Coleções  
+✅ Princípios de Orientação a Objetos (POO)  
+✅ Manipulação de Strings e Arrays  
+✅ Controle de Fluxo e Tratamento de Exceções  
+✅ Princípios de Desenvolvimento Java Moderno  
+
+---
+
+## 🛠 Como Usar
+Para utilizar este repositório, siga os passos abaixo:
+
+1. **Clone este repositório** para sua máquina local:
+   ```sh
+   git clone https://github.com/seu-usuario/oracle-java-foundations.git
+2. Navegue até a pasta do projeto
+   ```
+   cd oracle-java-foundations
+3. Abra o projeto em sua IDE favorita (IntelliJ IDEA, Eclipse ou VS Code).
+
+Execute os arquivos Java conforme necessário, de acordo com os exercícios e projetos do curso.
 
 📌 Objetivo do Curso
 O curso Oracle Java Foundations - SENAI tem como meta ensinar os conceitos fundamentais de Java, incluindo:
