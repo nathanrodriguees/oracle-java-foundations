@@ -31,7 +31,7 @@ Para utilizar este repositório, siga os passos abaixo:
 2. Navegue até a pasta do projeto
    ```
    cd oracle-java-foundations
-3. Abra o projeto em sua IDE favorita (IntelliJ IDEA, Eclipse ou VS Code).
+3. Abra o projeto em sua IDE (IntelliJ IDEA, Eclipse ou VS Code).
 4. Execute os arquivos Java conforme necessário, de acordo com os exercícios e projetos do curso.
 
 ---
