@@ -5,8 +5,8 @@ Bem-vindo(a) ao repositório do curso **Oracle Java Foundations - SENAI**! Aqui,
 ---
 
 ## 🚀 Tecnologias Utilizadas
-- **Linguagem:** Java (versão utilizada no curso)
-- **IDE:** IntelliJ IDEA / Eclipse / VS Code
+- **Linguagem:** Java (versão 23)
+- **IDE:** Eclipse 
 - **Versionamento de Código:** Git & GitHub
 
 ---
