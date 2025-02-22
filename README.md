@@ -32,17 +32,10 @@ Para utilizar este repositório, siga os passos abaixo:
    ```
    cd oracle-java-foundations
 3. Abra o projeto em sua IDE favorita (IntelliJ IDEA, Eclipse ou VS Code).
+4. Execute os arquivos Java conforme necessário, de acordo com os exercícios e projetos do curso.
 
-Execute os arquivos Java conforme necessário, de acordo com os exercícios e projetos do curso.
+---
 
-📌 Objetivo do Curso
-O curso Oracle Java Foundations - SENAI tem como meta ensinar os conceitos fundamentais de Java, incluindo:
-Estruturas de dados e coleções
-Orientação a Objetos (POO)
-Manipulação de Strings e Arrays
-Controle de fluxo e exceções
-Princípios de desenvolvimento Java moderno
-
-📜 Licença
+## 📜 Licença
 Este repositório é apenas para fins educacionais e não possui uma licença específica.
 📢 Dúvidas ou Sugestões? Fique à vontade para abrir uma issue ou entrar em contato. 😊
